@@ -1,0 +1,40 @@
+.container_about_us{
+    padding-top: 85px
+}
+
+.container_about_us .heading{
+    color: #2F4858;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    margin-top: -10px;
+    padding-bottom: 10px;
+}
+
+.container_about_us .about_us{
+    color: #2F4858;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form_title p{
+    color: #2F4858;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    padding-top: 50px;
+    margin-bottom: 140px
+
+}

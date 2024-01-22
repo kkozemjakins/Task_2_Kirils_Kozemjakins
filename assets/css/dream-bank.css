@@ -1,0 +1,184 @@
+.container_heading{
+    color: #2F4858;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    padding-bottom: 60px;
+
+
+}
+
+.video{
+    position: relative;
+}
+
+
+.container_dream_support{
+    padding-top: 150px;
+    padding-bottom: 174px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_dream_support .dream_heading{
+    color: #2F4858;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+.container_dream_support .dream-body{
+    padding-top: 60px;
+
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.container_dream_support .dream_sup_one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-right: 241px;
+}
+
+.container_dream_support .dream_sup_two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_dream_support .dream-body p{
+    color: #2F4858;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    width: 288px;
+
+}
+
+
+
+.container_goal{
+    padding-top: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_goal .goal{
+    color: #2F4858;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+
+.first_goal{
+    display: flex;
+    flex-direction: row;
+    color: #2F4858;
+
+    padding-top: 101px;
+    padding-bottom: 101px;
+    padding-left: 350px;
+
+
+}
+
+.second_goal{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 101px;
+    padding-right: 350px;
+}
+
+.third_goal{
+    display: flex;
+    flex-direction: row;
+    padding-left: 350px;
+}
+
+.container_goal .first_goal p,.container_goal .second_goal p,
+.container_goal .third_goal p{
+    color: #2F4858;
+    
+    padding-right: 67px;
+    padding-left: 62px;
+
+    width: 500px;
+
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.container_about_us .heading{
+    color: #2F4858;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container_about_us .about_us{
+    color: #2F4858;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.first_text, .second_text{
+    padding-bottom: 150px;
+    padding-top: 150px;
+    background-image: url('../img/svg/yellow-bg.svg');
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first_text p, .second_text p{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    width: 818px;
+}
+
+.first_text img{
+
+}
+

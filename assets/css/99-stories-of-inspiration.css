@@ -1,0 +1,281 @@
+.container_about_us .heading{
+    color: #2F4858;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container_our_team{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;    
+
+    padding-bottom: 150px;
+    padding-top: 100px;
+}
+
+
+.container_our_team_cover{
+    display: flex;
+
+    align-items: center;
+
+}
+
+.container_our_team .our_team_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_our_team .our_team_photos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+}
+
+.container_our_team .team_info{
+    color: #2F4858;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    width: 606px;
+
+    padding-bottom: 20px;
+    margin-top: -5px;
+
+
+}
+
+.container_our_team .our_team_photos .info img{
+    width: 289px;
+    height: 365px;
+    object-fit: cover;
+    object-position: 50% 0;    
+
+    
+    
+}
+
+.container_our_team .our_team_photos .info{
+    width: 289px;
+    height: 365px;
+    object-fit: cover;
+    object-position: 50% 0;
+
+    position: relative;
+    text-align: center;
+
+    
+    
+}
+
+.container_our_team .our_team_photos .first_member, .container_our_team .our_team_photos .second_member {
+    margin-right: 84px;
+
+
+}
+
+.container_our_team .our_team_photos .first_member, .container_our_team .our_team_photos .second_member, .container_our_team .our_team_photos .third_member {
+    overflow: hidden;
+
+
+
+}
+
+
+.name-title{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.container_our_team .our_team_photos .info .bg-tint {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(47, 72, 88, 0.80) 18.63%, rgba(47, 72, 88, 0.00) 49.21%);
+}
+
+.container_our_team .our_team_photos .member_name{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    margin-bottom: -20px;
+
+}
+
+.container_our_team .our_team_photos .member_info{
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.container_our_team .our_team_title .team_title{
+    color: #2F4858;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.container_99dreams{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container_99dreams_cover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row_99dreams{
+    display: flex;
+    flex-direction: row;
+}
+
+.last_row_99dreams{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.dream_photo{
+    /*background-image: url('../img/pictures/99dream/1.jpg');*/
+    width: 160px;
+    height: 160px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+
+    position: relative;
+
+}
+
+.dream_photo .number{
+    z-index: 3;
+    color: #FFF;
+    text-align: right;
+    font-family: 'Oswald';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    position: absolute;
+    bottom: -46px;
+    right: 15px;
+}
+
+.dream_photo .title{
+    z-index: 3;
+    color: #FFF;
+    text-align: right;
+    font-family: 'Oswald';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    position: absolute;
+
+
+}
+
+.bg {
+
+    z-index: 2;
+}
+
+/*
+.dream_photo {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .main-photo {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+  }
+  
+  .bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+
+  }*/
+
+  .lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(47, 72, 88, 0.90);;
+  }
+
+  .lightbox-content {
+    position: relative;
+    margin: auto;
+    padding: 60px;
+    max-width: 815px;
+  }
+
+  .lightbox-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+  }

@@ -1,0 +1,93 @@
+.container_about_us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    padding-bottom: 90px;
+}
+
+.container_about_us .heading{
+    color: #2F4858;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container_about_us .about_us{
+    color: #2F4858;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 818px;
+}
+
+.container_place_selector{
+    display: flex;
+    padding-top: 1px;
+    padding-left: 391px;
+    padding-right: 391px;
+    padding-bottom: 60px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container_place_selector .select_place{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.container_place_selector .select_type{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+
+.container_place_selector .select_type select, .container_place_selector .select_place select{
+    width: 288px;
+    height: 43px;
+    border-radius: 6px;
+    background: rgba(196, 196, 196, 0.40);
+
+    border: none;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+    color: #2F4858;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.27px;    
+
+}
+
+.container_place_selector .select_type label, .container_place_selector .select_place label{
+    color: #FFA800;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.27px;
+    padding-bottom: 15px;
+
+}
+
+
+
+

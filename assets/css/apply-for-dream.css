@@ -1,0 +1,119 @@
+.container_about_us .heading{
+    color: #2F4858;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    
+    padding-bottom: 10px;
+}
+
+.container_about_us .about_us{
+    color: #2F4858;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container_photos{
+    padding-bottom: 100px;
+}
+
+.container_about_us{
+    padding-bottom: 50px;
+}
+
+.container_join_dream{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 130px;
+}
+
+.container_join_dream .person_dream{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_join_dream .prof_dream{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-left: 242px;
+
+}
+
+.container_join_dream .prof_dream .dream-title,.container_join_dream .person_dream .dream-title{
+    color: #2F4858;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+
+.container_join_dream .prof_dream p{
+    color: #2F4858;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+
+
+
+}
+
+.container_join_dream .person_dream p{
+    color: #2F4858;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+
+
+}
+
+.container_join_dream p{
+    width: 394px;
+
+}
+
+
+
+.container_join_dream button{
+    background-color: #FFA800; 
+    border: none;
+    color: white;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 30px;
+    width: 233px;
+    height: 50px;
+
+
+}
